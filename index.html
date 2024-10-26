@@ -67,10 +67,12 @@
         <button class="cta-btn">read more</button>
       </div>
       <div class="recommendations">
-        <h2 class="section-heading">
-          Bears, Trains & Icebergs with Rail from Anchorage
-        </h2>
-        <div class="content">
+        <div class="left">
+          <h2 class="section-heading">
+            Bears, Trains & Icebergs with Rail from Anchorage
+          </h2>
+        </div>
+        <div class="content right">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
             animi voluptas amet dolorem obcaecati at reprehenderit, quisquam
@@ -112,7 +114,7 @@
         </div>
       </div>
       <div class="review">
-        <img src="" alt="" />
+        <img src="./assets/review-portrait.jpg" alt="" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
           corporis reiciendis, cupiditate animi dolores provident alias ullam
@@ -147,13 +149,35 @@
         </ul>
         <div class="icon-wrapper">
           <!-- 5 icons -->
+          <a href="http://"><i class="bx bxl-facebook"></i></a>
+          <a href="http://"><i class="bx bxl-twitter"></i></a>
+          <a href="http://"><i class="bx bxl-instagram"></i></a>
+          <a href="http://"><i class="bx bxl-pinterest-alt"></i></a>
+          <a href="http://"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
       <div class="right">
-        <form action="">
-          <input type="text" name="name" id="" />
-          <input type="email" name="email" id="" />
-          <textarea name="message" id=""></textarea>
+        <form action="" method="post" class="contact-form">
+          <input
+            type="text"
+            name="name"
+            id="contact-name"
+            placeholder="Name"
+            class="contact-input"
+          />
+          <input
+            type="email"
+            name="email"
+            id="contact-email"
+            placeholder="Email"
+            class="contact-input"
+          />
+          <textarea
+            name="message"
+            id="contact-message"
+            placeholder="Message"
+            class="contact-input"
+          ></textarea>
           <button type="submit">submit</button>
         </form>
       </div>
